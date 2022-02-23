@@ -1,0 +1,1 @@
+SELECT * FROM `etat_livre` INNER JOIN livres on etat_livre.id_livre=livres.id WHERE etat_livre.id_livre=1;
